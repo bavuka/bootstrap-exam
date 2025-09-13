@@ -1,0 +1,68 @@
+.nav1{
+    margin-left: 20%;
+}
+.nav2{
+    margin-left: 35%;
+    list-style-type: none;
+    padding-top: 8px;
+}
+.carousel-item{
+    width: 100%;
+    height: 90vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    width:35% ;
+    height: 50%;
+   
+    color: white;
+    margin-left: 20px;
+}
+.b1{
+    background-color: rgb(220, 125, 16);
+    color: white;
+    border: none;
+}
+.b{
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding-left: 40px;
+     
+      padding-right: 40px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+
+}
+h6{
+    text-decoration: none;
+}
+
+.card{
+    border-color:white;
+}
+body::before{
+    content: "";
+    display: block;
+    height: 60px;
+}
+.h{
+    height: 30px;
+}
+.p{
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .main{
+        top: 0;
+        font-size: 10px;
+
+    }
+    
+    
+}
